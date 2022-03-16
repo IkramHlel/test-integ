@@ -1,0 +1,95 @@
+#body {
+  background-color: #e8ca9e;
+}
+#bodyContainer {
+  background-color: #c4c4c4;
+  margin: 0 auto;
+  width: 100%;
+  height: 660px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  margin: auto;
+  width: 50%;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+}
+
+#description {
+  text-align: center;
+  margin: 25px 0;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+}
+
+img {
+  width: 150px;
+  height: 299px;
+  object-fit: cover;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px;
+}
+
+#btnOpen {
+  width: 208px;
+  height: 42px;
+  margin: 25px 496px;
+  padding: 13px 18.5px 13px 18px;
+  border-radius: 10px;
+  background-color: #377d4b;
+  border: 1px solid transparent;
+}
+#btnOne {
+  width: 109px;
+  height: 42px;
+  margin: 25px 546px 25px 545px;
+  padding: 13px 18px;
+  border-radius: 10px;
+  background-color: #377d4b;
+  border: 1px solid transparent;
+}
+#btnTwo {
+  width: 121px;
+  height: 42px;
+  margin: 25px 540px 0 539px;
+  padding: 13px 18px;
+  border-radius: 10px;
+  background-color: #377d4b;
+  border: 1px solid transparent;
+}
+
+input[type="button"] {
+  width: 73px;
+  height: 16px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+}
